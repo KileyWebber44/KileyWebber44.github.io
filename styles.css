@@ -1,0 +1,100 @@
+/* fonts */
+
+
+
+/* general set up */
+:root {
+    --hotpink: #f50756;}
+body {
+    background-image: url(./assets/portfoliobackgroundlonger.png);
+}
+
+/* navbar */
+.navbar-brand,.navbar-nav, .nav-link{
+    color: var(--hotpink)!important;
+}
+
+
+/* header */
+.jumbotron{
+    text-align: center;
+}
+#myName{
+    font-family: 'Rajdhani', sans-serif;
+}
+#headerSubtext{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* about */
+.aboutTitle{text-align: center;
+    color: rgb(230, 232, 240);
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+#aboutMe{
+    background-color: rgba(27, 27, 27, 70%);
+    padding: 3em;
+    margin-bottom: 4em;
+}
+
+.aboutText{
+    margin-top: 1em;
+    color: rgb(230, 232, 240);
+    font-family: 'Roboto', sans-serif;
+}
+
+#myPhoto{
+    border-radius: 8px;
+    height: 47em;
+}
+
+/* web dev */
+#web{
+    background-color: rgba(27, 27, 27, 70%);
+    padding: 3em;
+    margin-bottom: 4em;
+}
+
+.webDevTitle{
+    text-align: center;
+    color: rgb(230, 232, 240);
+    font-family: 'Rajdhani', sans-serif;
+    padding: 5px;
+}
+
+
+/* carousel */
+#art{
+    background-color: rgba(27, 27, 27, 70%);
+}
+
+.artTitle{
+    text-align: center;
+    color: rgb(230, 232, 240);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.artSubtext{
+    text-align: center;
+    color: rgb(230, 232, 240);
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+#myCarousel {
+    object-fit: contain;
+    overflow: hidden;
+
+    background-color: rgba(27, 27, 27, 70%);
+    border-radius: 8px;
+}
+
+
+/* contact */
+#contact{
+    background-color: rgba(27, 27, 27, 70%);
+    color: var(--hotpink);
+    margin-top: 1em;
+}
