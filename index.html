@@ -19,7 +19,7 @@
 </head>
 <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="top" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">~KAW~</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
           <div class="navbar-nav">
             <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#aboutMe">About</a>
-            <a class="nav-link" href="#">Web Projects</a>
+            <a class="nav-link" href="#web">Web Projects</a>
             <a class="nav-link" href="#art">Art Portfolio</a>
             <a class="nav-link" href="#contact">Contact Me!</a>
           </div>
@@ -37,9 +37,10 @@
 
 <!-- header -->
 <div class="jumbotron jumbotron-fluid">
-    <div class="container">
+    <div class="container" id="jumbo">
       <h1 class="display-4" id="myName">KILEY A WEBBER</h1>
-      <p class="lead" id="headerSubtext">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <p class="lead" id="headerSubtext">“The most exciting phrase to hear in science, the one that heralds the most discoveries, is not "Eureka!" (I found it!) but 'That's funny...'”
+      </p>
     </div>
   </div>
 
@@ -53,9 +54,12 @@
             </div>
             <div class="col-6">
                 <p class="aboutText">
-                    My name is Yoshikage Kira. I'm 33 years old. My house is in the northeast section of Morioh, where all the villas are, and I am not married. I work as an employee for the Kame Yu department stores, and I get home every day by 8 PM at the latest. I don't smoke, but I occasionally drink. I'm in bed by 11 PM, and make sure I get eight hours of sleep, no matter what. After having a glass of warm milk and doing about twenty minutes of stretches before going to bed, I usually have no problems sleeping until morning. Just like a baby, I wake up without any fatigue or stress in the morning. I was told there were no issues at my last check-up. I'm trying to explain that I'm a person who wishes to live a very quiet life. I take care not to trouble myself with any enemies, like winning and losing, that would cause me to lose sleep at night. That is how I deal with society, and I know that is what brings me happiness. Although, if I were to fight I wouldn't lose to anyone.
+                My name is Kiley Webber, and I am a university student pursuing Human Factors and Engineering Psychology! I am working to combine a passion for technology, helping others, and the human mind with my studies and future career. I have research skills such as survey creation and data analysis and am competent with SPSS for statistical analysis. I also have participated Humanities research, presenting a paper on Alexander Hamilton's infamous Reynolds Affair at the National Conference of Undergraduate Research in 2019.
                 </p>
-                <a class="btn btn-secondary resume">DOWNLOAD MY RESUME</a>
+                <p class="aboutText">
+                  Aside from psychology and other academic work I am an aspiring artist,primarily doing character design, fantasy art, and graphics. I am also trained in HTML, CSS, JavaScript, and Python.
+                </p>
+                <a class="btn btn-secondary resume" href="assets/Resume.pdf">DOWNLOAD MY RESUME</a>
                 <a class="btn btn-secondary redbubble" href="https://www.redbubble.com/people/EmpressBubbles/shop?asc=u">SEE MY REDBUBBLE</a>
             </div>
         </div>
@@ -71,31 +75,31 @@
         <div class="row">
           <div class="col-4">
           <div class="card" style="width: 16rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./assets/CSSCreature.png" class="card-img-top" alt="CSS Creature IMG">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">CSS Creature</h5>
+              <p class="card-text">A creature built using CSS on codepen</p>
+              <a href="https://codepen.io/BubbleGumEmpress/pen/MWjwpWO" class="btn btn-info">View Project</a>
             </div>
           </div>
           </div>
           <div class="col-4">
             <div class="card" style="width: 16rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./assets/pokemonAPI.png" class="card-img-top" alt="pokemonAPI img">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Pokemon API</h5>
+                <p class="card-text">A basic webpage designed to fetch data from a pokemon API.</p>
+                <a href="#https://kaw-pokemonapi.web.app/" class="btn btn-info">View Project</a>
               </div>
             </div>
             </div>
             <div class="col-4">
             <div class="card" style="width: 16rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./assets/staticlayout.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Static Layout Recreation</h5>
+                <p class="card-text">A CSS recreation of the Star Wars site.</p>
+                <a href="#https://kileywebber44.github.io/staticlayoutSW/" class="btn btn-info">View Project</a>
               </div>
             </div>
           </div>
@@ -119,10 +123,10 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img src="./assets/HayloWarlock.png" class="d-block w-100" alt="there should be a picture here :(">
+        <img src="./assets/NERO.png" class="d-block w-100" alt="there should be a picture here :(">
       </div>
       <div class="carousel-item active">
-        <img src="./assets/VIXEN_flat color w_watermark.png" class="d-block w-100" alt="there should be a picture here :(">
+        <img src="./assets/Ellaspooky.png" class="d-block w-100" alt="there should be a picture here :(">
       </div>
       <div class="carousel-item">
         <img src="./assets/redheadfairyTRANSPARENT.png" class="d-block w-100 " alt="there should be a picture here :(">
@@ -182,7 +186,7 @@
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button type="submit" class="btn btn-lg btn-black">
+                        <button type="submit" style="color:gray" class="btn btn-lg btn-black">
                             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                             Send Message
                         </button>
@@ -191,6 +195,16 @@
             </div>
         </div>
     </div>
+</section>
+
+<section id="footer">
+  <div class="container">
+   <div id="footerbox">
+    <p>Images copyright of Kiley Webber</p>
+  </div>
+    <a id="topbutton" class="btn btn-info" href="#top">Back to Top</a>
+  </div>
+
 </section>
 <!-- bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

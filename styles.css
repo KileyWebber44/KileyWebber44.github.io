@@ -18,12 +18,16 @@ body {
 /* header */
 .jumbotron{
     text-align: center;
+    background: rgba(27, 27, 27, 70%)!important;
 }
+
 #myName{
     font-family: 'Rajdhani', sans-serif;
+    color: var(--hotpink);
 }
 #headerSubtext{
     font-family: 'Roboto', sans-serif;
+    color: aliceblue;
 }
 
 /* about */
@@ -36,6 +40,7 @@ body {
 #aboutMe{
     background-color: rgba(27, 27, 27, 70%);
     padding: 3em;
+    margin-top: 5em;
     margin-bottom: 4em;
 }
 
@@ -97,4 +102,23 @@ body {
     background-color: rgba(27, 27, 27, 70%);
     color: var(--hotpink);
     margin-top: 1em;
+}
+
+/* footer */
+#footer{
+    background-color: rgba(27, 27, 27, 70%);
+
+    margin-top: .5em;
+}
+
+
+#footerbox{
+    color: aliceblue;
+
+    text-align: center;
+    padding: .5em;
+}
+
+#topbutton{
+    margin-bottom: 10px;
 }
